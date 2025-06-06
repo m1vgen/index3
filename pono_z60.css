@@ -1,0 +1,17 @@
+div {
+    width: 606px;
+    background-color: green;
+    font-size: 19mm;
+}
+
+#blok_ponomarenko_1:hover {
+    background-color: blue;
+}
+
+#blok_ponomarenko_2 {
+    background-color: silver;
+}
+
+#blok_ponomarenko_3 {
+    background-color: #03fc24;
+}

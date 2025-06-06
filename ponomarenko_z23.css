@@ -1,0 +1,39 @@
+#pogrubienie_ponomarenko {
+    font-size: calc(25px + 11px);
+    font-weight: bold;
+    color: #9F1DCC;
+}
+
+#pochylona_ponomarenko {
+    font-size: calc(30pt + 11pt);
+    font-style: italic;
+    color: #EC4712;
+}
+
+#index_gorny_ponomarenko {
+    font-size: calc(0.5cm + 0.1 * 11cm);
+    vertical-align: super;
+    color: #B22B1F;
+}
+
+#index_dolny_ponomarenko {
+    font-size: calc(0.5cm + 0.2 * 11cm);
+    vertical-align: sub;
+    color: rgba(74, 93, 45, 0.8);
+}
+
+#mono_ponomarenko {
+    font-size: calc(35px + 11px);
+    font-family: monospace;
+    color: #2E85A5;
+}
+
+#powiekszenie_ponomarenko {
+    font-size: calc(75pt + 11pt);
+    color: #E72137;
+}
+
+#pomniejszenie_ponomarenko {
+    font-size: calc(10pt + 11pt);
+    color: #672F8A;
+}

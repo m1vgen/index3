@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie74</title>
+    <style>
+        table, td,tr{
+            font-size: 17px;
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: left;}
+        td{
+            height: auto;
+            width: auto;
+            padding: 10px;
+        }
+        #center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><b>Kolor tła </b></td>
+            <td>Jednozadaniowy opis:<br>
+                Dzięki temu poleceniu można ustalić kolor tła dla danego elementu. <br><br>
+                     
+                selektor {background-color: kolor;} 
+</td>
+        </tr>
+        <tr>
+            <td><b>Tło Obrazkowe </b></td>
+            <td>Jednozadaniowy opis:<br>
+                
+                Dzięki temu poleceniu można ustalić tło obrazkowe dla danego elementu. <br><br>
+                 
+                selektor {background-image: url(adres);} <br><br>
+            
+                background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");
+            </td>
+        </tr>
+        <tr>
+            <td><b>Powtarzanie tła</b></td>
+            <td>Jednozadaniowy opis:<br>
+                
+                Dzięki temu poleceniu można ustalić jeden z czterech sposobów powtarzania się obrazka jako tła. <br><br>
+                selektor {background-repeat: powtarzanie;}<br><br>
+
+                Parametry: <br>
+                <ol style="list-style-type: none">
+                    <li>"repeat" - jednocześnie w pionie i poziomie - domyślnie</li>
+                    <li>"repeat-x" - w poziomie </li>
+                    <li>"repeat-y" - w pionie </li>
+                    <li>"no-repeat" - pojedynczy obrazek - bez powtarzania - w górnym-lewym rogu </li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Pozycja tła </b></td>
+            <td>Jednozadaniowy opis:<br>
+
+                Dzięki temu poleceniu można ustalić pozycję obrazka w ramach tła. <br><br>
+
+                selektor {background-position: pozycja;} <br><br>
+                
+                Parametry: <br> <br>
+                <table>
+                    <tr>
+                        <td>pozycja: jedna wartość:</td>
+                        <td>jednostki miary:</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            "center" - obrazek na środku (w centrum) <br>
+                            "left" - obrazek po lewej <br>
+                            "right" - obrazek po prawej <br>
+                            "top" - obrazek na górze <br>
+                            "bottom" - obrazek na dole <br>
+                            jednostki miary - odległość od lewej krawędzi <br>
+                            dwie wartości (oddzielone spacją): <br>
+                            "left top" - lewy-górny róg <br>
+                            "left bottom" - lewy-dolny róg <br>
+                            "right top" - prawy-górny róg <br>
+                            "right bottom" - prawy-dolny róg <br>
+                            dwie jednostki miary - pierwsza z nich oznacza odległość od lewej krawędzi, a druga - od górnej 
+                        </td>
+                        <td>piksele - px  <br>
+                            punkty edytorskie - pt  <br>
+                            wysokość litery "x" - ex  <br>
+                            wysokość aktualnej czcionki - em  <br>
+                            centymetry lub milimetry - cm, mm  <br>
+                            części dziesiętne centymetra pisane z kropką np.: 0.5cm  <br>
+                            procent wielkości nadrzędnej - %  <br>
+                            cale - in (1in=2.54cm)</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>

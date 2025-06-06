@@ -1,0 +1,47 @@
+<textarea rows="40" cols="40">
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ponomarenko</title>
+    <style>
+        body {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+
+        div {
+            background-color: #eeeeee; /* jasne tło */
+            border: 5px solid black;
+            color: red;
+            font-size: 42px;
+            width: 900px;
+            height: 150px;
+            margin: 20px auto; /* centrowanie DIV-a */
+            text-align: center; /* centrowanie tekstu */
+            line-height: 150px; /* wyśrodkowanie pionowe tekstu */
+        }
+    </style>
+</head>
+<body>
+
+    <div style="background-image: url('inicjalMP.png');">
+        Powtarzanie w obu kierunkach
+    </div>
+
+    <div style="background: url('inicjalMP.png'); background-repeat: repeat-y; background-color: #ffff99;">
+        Powtarzanie pionowe
+    </div>
+
+    <div style="background: url('inicjalMP.png'); background-repeat: repeat-x; background-color: #ffff99;">
+        Powtarzanie poziome
+    </div>
+
+    <div style="background: url('inicjalMP.png'); background-repeat: no-repeat; background-size: 400px 120px; background-color: #ffff99; background-position: center;">
+        Bez powtarzania – wycentrowany
+    </div>
+
+</body>
+</html>
+<!-- Michał Ponomarenko -->
